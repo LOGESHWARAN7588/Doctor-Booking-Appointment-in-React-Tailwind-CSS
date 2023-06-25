@@ -1,7 +1,6 @@
 import React from 'react';
 import Single from '../images/person.jpg'
-import Double from '../images/person.jpg'
-import Triple from '../images/person.jpg'
+
 
 const Cards = () => {
   return (
