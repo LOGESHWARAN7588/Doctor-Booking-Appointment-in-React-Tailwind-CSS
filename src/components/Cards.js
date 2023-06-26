@@ -22,7 +22,7 @@ the two major realms of Classical physics: Newtonian mechanics </p>
  
 
     <div className='w-full py-[10rem] px-4 bg-white'>
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
+      <div className='max-w-[1050px] mx-auto grid md:grid-cols-3 gap-8'>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
 
             <div className=' flex space-x-4 bg-[#8EC2F2] rounded-lg p-10'>

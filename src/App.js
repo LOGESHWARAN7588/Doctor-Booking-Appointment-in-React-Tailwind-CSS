@@ -1,6 +1,7 @@
 
 import './App.css';
 import Cards from './components/Cards';
+import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <Cards/>
       <Review/>
+      <Faq/>
       <Newsletter/>
       <Footer/>
     </div>
