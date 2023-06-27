@@ -8,7 +8,7 @@ const Cards = () => {
     
 
     <div className=' bg-white' >
-    <div className='max-w-[800px] mt-[-96px] w-full h-1/4 mx-auto text-center flex flex-col justify-center'>
+    <div className='max-w-[800px] mt-[100px] w-full h-1/4 mx-auto text-center flex flex-col justify-center'>
       
       <div className='flex justify-center items-center text-[#252B42]'>
         <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
