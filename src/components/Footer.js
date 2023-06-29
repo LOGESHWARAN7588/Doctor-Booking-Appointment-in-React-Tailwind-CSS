@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
 
-    <div className='w-full py-[10rem] px-4 bg-white'>
+    <div className='w-full py-5 px-4 bg-white'>
        <div className=' mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
       <h6 className='font-bold text-[#252B42]'>Get In Touch</h6>
