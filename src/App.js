@@ -7,6 +7,7 @@ import Home from './components/Home';
 
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
+import Price from './components/Price';
 
 import Review from './components/Review';
 
@@ -21,7 +22,7 @@ function App() {
       <Cards/>
       <Review/>
       <Faq/>
-     
+      <Price/>
       <Newsletter/>
       <Footer/>
     </div>

@@ -56,26 +56,26 @@ const Home = () => {
                 <label>
                 Email address *
                 <br></br>
-                <input type="email" class="border border-white rounded-lg py-2 px-4 text-gray-700" name="inputEmail" placeholder="exampl@email.com"></input>
+                <input type="email" class="border  border-white rounded-lg py-2 px-4 text-gray-700" name="inputEmail" placeholder="exampl@email.com"></input>
 
                   <br></br>
                 </label>
                 <label>
                 Departement *
-                <br></br>
+                  
                 <div class="flex">
-  
-            <div class="relative inline-flex">
-              <select class="border border-l-0 rounded-lg bg-gray-100 text-gray-600 px-12 py-2 appearance-none">
-                <option>United States</option>
-                <option>Canada</option>
-                <option>France</option>
-              </select>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="absolute right-0 top-0 mt-2 mr-2 h-4 w-4 text-gray-600 pointer-events-none">
-                <path fill-rule="evenodd" d="M11.95 6.95a.5.5 0 01.7.7l-3.823 3.822a.5.5 0 01-.637.057l-.088-.057-3.822-3.823a.5.5 0 01.638-.765l.088.057L8 9.586l3.537-3.536a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
-              </svg>
-            </div>
-          </div>
+        
+                  <div class="relative inline-flex">
+                    <select class="border border-l-0 rounded-lg ml-[20px] bg-gray-100 text-gray-600 px-12 py-2 appearance-none">
+                      <option>United States</option>
+                      <option>Canada</option>
+                      <option>France</option>
+                    </select>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="absolute right-0 top-0 mt-2 mr-2 h-4 w-4 text-gray-600 pointer-events-none">
+                      <path fill-rule="evenodd" d="M11.95 6.95a.5.5 0 01.7.7l-3.823 3.822a.5.5 0 01-.637.057l-.088-.057-3.822-3.823a.5.5 0 01.638-.765l.088.057L8 9.586l3.537-3.536a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                </div>
 
                   
                 </label>
@@ -85,16 +85,16 @@ const Home = () => {
                 <div class="flex">
 
                 <div class="relative inline-flex">
-    <select class="border border-l-0 rounded-lg bg-gray-100 text-gray-600 px-12 py-2 appearance-none">
-      <option>4:00 Available</option>
-      <option>8:00 Available</option>
-      <option>11:00 Available</option>
-    </select>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="absolute right-0 top-0 mt-2 mr-2 h-4 w-4 text-gray-600 pointer-events-none">
-      <path fill-rule="evenodd" d="M11.95 6.95a.5.5 0 01.7.7l-3.823 3.822a.5.5 0 01-.637.057l-.088-.057-3.822-3.823a.5.5 0 01.638-.765l.088.057L8 9.586l3.537-3.536a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
-    </svg>
-  </div>
-</div>
+                  <select class="border border-l-0 rounded-lg bg-gray-100 ml-[20px] text-gray-600 px-12 py-2 appearance-none">
+                    <option>4:00 Available</option>
+                    <option>8:00 Available</option>
+                    <option>11:00 Available</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="absolute right-0 top-0 mt-2 mr-2 h-4 w-4 text-gray-600 pointer-events-none">
+                    <path fill-rule="evenodd" d="M11.95 6.95a.5.5 0 01.7.7l-3.823 3.822a.5.5 0 01-.637.057l-.088-.057-3.822-3.823a.5.5 0 01.638-.765l.088.057L8 9.586l3.537-3.536a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+              </div>
                  
                 </label>
                 
