@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import '../css/Navbar.css';
 import {
   AiOutlineClose,
   AiOutlineMenu,
   AiOutlineArrowRight,
 } from "react-icons/ai";
+import Home from "./Home";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,8 +15,10 @@ const Navbar = () => {
   };
 
   return (
+
+    <div className="navDiv bg-red-200 ">
+
     <div className="flex justify-between items-center h-24 max-w-[1250px] mx-auto px-4 text-white bg-transparent">
-      {/* <h1 className="w-full ml-[150px] mr-[250px] text-3xl font-bold text-[#FFF] ">Physionic</h1> */}
       <h1 className="w-full text-3xl font-bold ml-[90px] text-[#252B42] m-4">
         Physionic
       </h1>
@@ -46,6 +50,9 @@ const Navbar = () => {
         <li className="p-7 border-b text-[#737373]">Pricing</li>
         <li className="p-7 text-[#737373]">Contact</li>
       </ul>
+    </div>
+    <Home/>
+
     </div>
   );
 };
