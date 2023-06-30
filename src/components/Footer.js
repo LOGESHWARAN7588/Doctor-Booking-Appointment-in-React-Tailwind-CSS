@@ -61,7 +61,7 @@ lazy dog</p>
       </div>
       
     </div>
-    <h6 className='max-w-[800px] mt-[10px] w-full  mx-auto text-center flex flex-col  text-[#737373]'>Made With Love By Figmaland All Right Reserved </h6>
+    <h6 className='max-w-[800px] mt-[10px] w-full  mx-auto text-center flex flex-col  text-[#737373]'>Made With Love By Logesh  </h6>
 
     </div>
     
