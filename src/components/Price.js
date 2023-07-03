@@ -16,8 +16,8 @@ const Price = () => {
         </p>
       </div>
 
-      <div className="w-full py-[10rem] px-4 bg-white">
-        <div className="max-w-[1050px] mx-auto grid md:grid-cols-3 gap-4">
+      <div className="w-full py-[10rem] border-blue-500 px-4 bg-white">
+        <div className="max-w-[1050px] mx-auto border-blue-500  grid md:grid-cols-3 gap-4">
           <div className="w-full border-[#23A6F0] shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <div className="text-left font-medium border-[#23A6F0] text-[#737373]  ">
               <h3 className="py-2  mx-8 mt-8 font-bold text-center  text-[#252B42]">
@@ -40,7 +40,7 @@ const Price = () => {
               </button>
             </div>
           </div>
-          <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <div className="w-full border bg-[#272742] shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <div className="text-left font-medium text-white p-4 md:my-0 my-8  bg-[#252B42]">
               <h3 className="py-2  mx-8 mt-8 font-bold text-center  text-white">
                 STANDARD
@@ -63,7 +63,7 @@ const Price = () => {
             </div>
           </div>
 
-          <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <div className="w-full border-blue-500 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <div className="text-left font-medium text-[#737373]  ">
               <h3 className="py-2  mx-8 mt-8 font-bold text-center  text-[#252B42]">
                 PREMIUM
